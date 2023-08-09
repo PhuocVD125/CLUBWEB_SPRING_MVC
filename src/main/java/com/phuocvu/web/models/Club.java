@@ -34,15 +34,6 @@ public class Club {
     @UpdateTimestamp
     private LocalDateTime updatedOn;
 
-    /*
-    @OneToMany(mappedBy = "club", cascade = CascadeType.REMOVE):
-    Đây là mối quan hệ "one-to-many" được thể hiện bởi Annotation @OneToMany.
-    Nó cho biết mỗi đối tượng Club có thể liên kết với nhiều đối tượng Event.
-    Thuộc tính mappedBy = "club" chỉ định rằng trường "club" trong class Event là trường nào được dùng để ánh xạ quan hệ này.
-    Nghĩa là trường "club" trong class Event đại diện cho đối tượng Club chính nó.
-    Thuộc tính cascade = CascadeType.REMOVE chỉ định rằng khi xóa một đối tượng Club,
-    tất cả các đối tượng Event liên quan đến nó cũng sẽ bị xóa.
-    */
     @ManyToOne
     @JoinColumn(name = "created_by", nullable = false)
     private UserEntity createdBy;

@@ -28,12 +28,6 @@ public class Event {
     @UpdateTimestamp
     private LocalDateTime updatedOn;
 
-    /*
-    @JoinColumn(name = "club_id", nullable = false):
-    Thuộc tính name = "club_id" chỉ định rằng cột club_id trong bảng Event được sử dụng để lưu khóa chính của đối tượng Club liên quan.
-    Thuộc tính nullable = false chỉ định rằng club_id không được chấp nhận giá trị null,
-    nghĩa là mỗi Event phải liên kết với một Club.
-    */
     @ManyToOne
     @JoinColumn(name = "club_id", nullable = false)
     private Club club;
