@@ -1,6 +1,8 @@
 # CLUB_WEB_SPRING_MVC
 This is a basic website built using the spring mvc library.</br>
 This is a website that helps with the management and promotion of clubs and their events in a community.</br>
+The website is focused on building backend and I used pre-made templates to edit for frontend.</br>
+
 Features included in the website:</br>
   + Login, register account</br>
   + Authentication, authorization and security with spring security</br>
