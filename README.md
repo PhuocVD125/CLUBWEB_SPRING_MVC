@@ -12,7 +12,7 @@ Technologies:</br>
   + SpringSercurity</br>
   + JSP, JSTL</br>
   + Bootstrap
-  + 
+    
 How to use it ?
   + Set up database, create DB: "clubgroup" or setting in file application.properties</br>
   + create some data</br>
