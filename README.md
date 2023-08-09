@@ -6,21 +6,18 @@ Features included in the website:</br>
   + Authentication, authorization and security with spring security</br>
   + Management, CRUD of clubs</br>
   + Management, CRUD of events</br>
-  
 Technologies:</br>
   + SpringMVC</br>
   + SpringSercurity</br>
   + JSP, JSTL</br>
   + Bootstrap
-    
-How to use it ?Some pictures of the website
+How to use it ?
   + Set up database, create DB: "clubgroup" or setting in file application.properties</br>
   + create some data</br>
   + run the application on the IDE</br>
-  
 Some pictures of the website:</br>
 + HomePage</br>
-![image](https://github.com/PhuocVD125/CLUB_WEB_SPRING_MVC/assets/102707824/af4f8aae-5faf-4b02-a0c2-9b03097ad187)
+![image](https://github.com/PhuocVD125/CLUB_WEB_SPRING_MVC/assets/102707824/0e15bf8d-cba6-46b3-810c-8def99fe9678)
 + Login</br>
 ![image](https://github.com/PhuocVD125/CLUB_WEB_SPRING_MVC/assets/102707824/ff5e0256-8cad-4e71-85d5-ac4e04e440a0)
 + Register</br>
